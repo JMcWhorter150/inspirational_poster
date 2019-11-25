@@ -5,10 +5,24 @@
 .image-frame {
     width: 500px;
     height: 100%;
-    padding: 50px;
+    padding: 8px 50px 16px 50px;
     background-color: black;
 }
 
 .image-frame > img {
     width: 100%;
+}
+
+.part1, .part2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.part1 {
+    margin-bottom: 10px;
+}
+
+.part2 {
+    margin-top: 10px;
 }
