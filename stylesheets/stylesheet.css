@@ -5,7 +5,7 @@
 .image-frame {
     width: 500px;
     height: 100%;
-    padding: 8px 50px 16px 50px;
+    padding: 50px;
     background-color: black;
 }
 
@@ -15,14 +15,22 @@
 
 .part1, .part2 {
     color: white;
-    text-align: center;
+    position: absolute;
     margin: 0;
 }
 
 .part1 {
-    margin-bottom: 10px;
+    top: 0;
+    left: 196px;
 }
 
 .part2 {
-    margin-top: 10px;
+    bottom: 0;
+    left: 157px;
+}
+
+.poster {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
