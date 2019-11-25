@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-frame {
+    width: 500px;
+    height: 500px;
+}
+
+.image-frame > img {
+    height: 100%;
+}
