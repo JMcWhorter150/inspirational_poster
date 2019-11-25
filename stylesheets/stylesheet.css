@@ -4,9 +4,11 @@
 
 .image-frame {
     width: 500px;
-    height: 500px;
+    height: 100%;
+    padding: 50px;
+    background-color: black;
 }
 
 .image-frame > img {
-    height: 100%;
+    width: 100%;
 }
